@@ -1,0 +1,63 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+out/
+*-build/
+*-Debug/
+*-Release/
+*-RelWithDebInfo/
+*-MinSizeRel/
+
+# Compiled / linked artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.app/
+
+# Qt Creator / Qt Design Studio / qmake leftovers
+*.user
+*.user.*
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+*.autosave
+.qtcreator/
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+
+# moc / uic / rcc generated files (if produced in-tree)
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+
+# CMake in-tree leftovers
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+CMakeUserPresets.json
+install_manifest.txt
+
+# IDEs and OS
+.idea/
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
